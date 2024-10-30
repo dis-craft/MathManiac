@@ -1,0 +1,60 @@
+.calculator {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+
+.fraction {
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.fraction .numerator, .fraction .denominator {
+    display: inline-block;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.fraction .denominator {
+    border-top: 1px solid black;
+}
+
+.fraction .d {
+    font-size: 20px;
+    position: relative;
+    top: -5px; /* Adjust as needed */
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex: 1;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

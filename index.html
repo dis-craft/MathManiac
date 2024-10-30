@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Derivative Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="fraction">
+            <div class="numerator">d</div>
+            <div class="denominator">d</div>
+        </div>
+        <input type="text" id="variable" placeholder="Variable (e.g., x)">
+        <input type="text" id="expression" placeholder="Expression (e.g., x^2 + 3x)">
+        <button onclick="calculateDerivative()">Calculate Derivative</button>
+        <p id="result"></p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
